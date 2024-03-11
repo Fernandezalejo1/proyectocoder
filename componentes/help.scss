@@ -1,0 +1,11 @@
+.contenedorfaq {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.contenedorfaq div {
+    width: 48%;
+    border: 1px solid #ccc;
+    padding: 10px;
+}

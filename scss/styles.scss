@@ -1,0 +1,63 @@
+body {
+    background-color: #222;
+    font-family: Arial, sans-serif;
+}
+
+.col img {
+    width: auto;
+}
+
+img {
+    max-width: fit-content;
+}
+
+.container p {
+    border: 1px solid #0e0202; 
+    padding: 10px; 
+    font-family: Arial, sans-serif; 
+}
+.contenedorfaq {
+    padding: 20px;
+}
+
+.contenedorfaq div {
+    width: 48%;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.navbar-toggler {
+    border: none;
+    outline: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+}
+
+.navbar-nav {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+.navbar-collapse.show .navbar-nav {
+    max-height: 500px; 
+}
+.img-fluid {
+    width: 100%;
+    height: auto;
+}
+.contenedorfaq p {
+    text-align: justify;
+}
+
+.col-4 img {
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .col-4 img:hover {
+            transform: scale(1.1);
+        }
